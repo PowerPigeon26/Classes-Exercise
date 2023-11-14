@@ -4,7 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Car car1 = new Car();
+
+            car1.Make = "Chrysler";
+            car1.Model = "Concorde";
+            car1.Year = 1998;
+
+            car1.PrintTheGoods();
         }
     }
 }
